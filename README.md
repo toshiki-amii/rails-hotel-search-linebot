@@ -1,24 +1,47 @@
-# README
+# 宿泊検索
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Line上でキーワードを
+ 入れれば検索条件でホテルを検索してくれるLINE Botです
+ 
 
-Things you may want to cover:
+# URL 
 
-* Ruby version
+@820oralm
 
-* System dependencies
+# DEMO
+ 
+[![Image from Gyazo](https://i.gyazo.com/78b36ca8cb6ff352cb8bcbc6977ab477.gif)](https://gyazo.com/78b36ca8cb6ff352cb8bcbc6977ab477)
+  
+# Requirements_definition
+ 
+目的：手軽なLINEですぐに宿泊先を決めることができる
 
-* Configuration
+詳細：LINE上で検索ができる
 
-* Database creation
+ユースケース:
+    ・検索ワードでメッセージ送信
+    ・ホテルの詳細や地図、電話をかけることができる
+ 
+# Development_environment
 
-* Database initialization
+## バックエンド
 
-* How to run the test suite
+Ruby, Ruby on Rails
 
-* Services (job queues, cache servers, search engines, etc.)
+## Webサーバー
 
-* Deployment instructions
+Heroku
 
-* ...
+## ソース管理
+
+GitHub, GitHubDesktop
+
+## エディタ
+
+VSCode
+
+# Usage
+
+* ruby 2.6.5
+* rails 6.0.3
+
